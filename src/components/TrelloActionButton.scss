@@ -1,0 +1,30 @@
+.openForButtonGroup {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 3px;
+  height: 36px;
+  width: 272px;
+  padding-left: 10px;
+}
+
+.card_style {
+  overflow: visible;
+  min-height: 80px;
+  min-width: 272px;
+  padding: 6px 8px 2px;
+
+  .textarea_style {
+    resize: none;
+    width: 100%;
+    overflow: hidden;
+    outline: none;
+    border: none;
+  }
+}
+
+.formButtonGroup {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
