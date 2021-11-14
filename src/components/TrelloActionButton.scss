@@ -27,4 +27,12 @@
   margin-top: 8px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+
+  .icon-close{
+    border-radius: 3px;
+    color: #fff;
+    background-color: #808080;
+    opacity: 0.7;
+  }
 }

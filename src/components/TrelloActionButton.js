@@ -100,13 +100,14 @@ class TrelloActionButton extends React.Component {
                 />
             </Card>
             <div className='formButtonGroup'>
+
                 <Button
                     onMouseDown={list ? this.handleAddList : this.handleAddCard}
                     variant="contained"
-                    color='primary'>
+                    color='secondary'>
                     {buttonTitle}{' '}
                 </Button>
-                <Icon style={{marginLeft: 8, cursor: "pointer"}}>
+                <Icon className="icon-close" style={{marginLeft: 8, cursor: "pointer"}}>
                     close
                 </Icon>
             </div>
